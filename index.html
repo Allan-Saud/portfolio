@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Allan Saud - Full Stack Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init("JbPj6v1Dd4kFtUfII"); // Replace with your EmailJS public key
+    })();
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="#home" class="logo">Allan Saud</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- <section id="home" class="hero-section">
+    <div class="container hero-content">
+      <h1>Hello, I'm <span>Allan Saud</span></h1>
+      <p>Full Stack Developer | AI Enthusiast | MERN & Django Expert</p>
+      <p>2 Years of experience building modern web applications & deploying scalable solutions.</p>
+      <a href="#contact" class="btn-primary">Hire Me</a>
+    </div>
+  </section> -->
+  <section id="home" class="hero-section">
+    <div class="container hero-content">
+      <img src="profile.jpg" alt="Allan Saud" class="profile-photo" />
+      <h1>Hello, I'm <span>Allan Saud</span></h1>
+      <p>Full Stack Developer | AI Enthusiast | MERN & Django Expert</p>
+      <p>2 Years of experience building modern web applications & deploying scalable solutions.</p>
+      <a href="#contact" class="btn-primary">Hire Me</a>
+    </div>
+  </section>
+
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages & Frameworks</h3>
+          <ul>
+            <li>Python (Django, Flask)</li>
+            <li>JavaScript (React.js, Vue.js, Node.js)</li>
+            <li>Java</li>
+            <li>PHP</li>
+            <li>Machine Learning & AI</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <ul>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>DevOps & Hosting</h3>
+          <ul>
+            <li>Docker</li>
+            <li>Contabo Cloud VPS</li>
+            <li>Hostinger</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="experience-list">
+
+        <div class="experience-item">
+          <h3>Upveda Technologies</h3>
+          <p><strong>Full Stack Developer</strong> | Aug 2021 - Dec 2022</p>
+          <ul>
+            <li>Developed scalable web applications using <strong>Django</strong>, <strong>React.js</strong>, and
+              <strong>RESTful APIs</strong> for Daily Sales Reporting (DSR) systems, improving reporting efficiency by
+              60%.
+            </li>
+            <li>Implemented AI-driven analytics and integrated <strong>machine learning models</strong> to enhance
+              business decision-making.</li>
+            <li>Managed and optimized <strong>PostgreSQL</strong> and <strong>MongoDB</strong> databases, achieving a
+              30% reduction in query response time.</li>
+            <li>Collaborated with cross-functional teams using Agile/Scrum methodologies, contributing to faster project
+              delivery and higher client satisfaction.</li>
+            <li>Designed reusable components and enhanced UI/UX, resulting in improved user engagement and a modernized
+              user interface.</li>
+          </ul>
+        </div>
+
+        <div class="experience-item">
+          <h3>Ecomsuite Technologies</h3>
+          <p><strong>Software Engineer</strong> | March 2022 - Present</p>
+          <ul>
+            <li>Built and deployed a <strong>Government Planning Management System</strong> for Nepal, streamlining
+              project tracking and reducing manual paperwork by 70%.</li>
+            <li>Integrated secure <strong>payment gateways</strong> and optimized web performance, reducing page load
+              times by 40%.</li>
+            <li>Utilized <strong>Docker</strong> and <strong>cloud VPS (Contabo, Hostinger)</strong> for containerized
+              deployment and scalable infrastructure.</li>
+            <li>Implemented CI/CD pipelines, automated testing, and code review processes to ensure high-quality
+              deliverables.</li>
+            <li>Contributed to API design, documentation, and third-party service integrations, increasing system
+              interoperability and efficiency.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <h3>Teachers‑Salary Information System</h3>
+          <p>Streamlined teacher salary tracking with searchable records, role-based access, and exportable salary
+            reports. Built with MERN Stack.</p>
+          <a href="https://github.com/Allan-Saud/Teachers-Salary-Information-System" target="_blank">View Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Contract Management System</h3>
+          <p>End‑to‑end contract lifecycle management platform including contract creation, workflow approvals and file
+            versioning.Used payment gateway Esewa.</p>
+          <a href="https://github.com/Allan-Saud/Contract-Management-System" target="_blank">View Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Machine Learning Toolkit</h3>
+          <p>Collection of ML experiments and model implementations for classification, clustering, and regression using
+            scikit‑learn and TensorFlow.</p>
+          <a href="https://github.com/Allan-Saud/Machine_Learning" target="_blank">View Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Career Recommendation System</h3>
+          <p>An intelligent career advisor recommending suitable career paths based on user profile inputs using ML
+            algorithms and Flask API. Used Hugging Face Model to implement LLM concept</p>
+          <a href="https://github.com/Allan-Saud/Career-Recommendation-System" target="_blank">View Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>File Uploader</h3>
+          <p>Simple web app that handles file uploads with preview, size validation, and cloud storage integration using
+            React, Node.js.</p>
+          <a href="https://github.com/Allan-Saud/File_Uploader" target="_blank">View Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Touch‑and‑Hold Battle Game</h3>
+          <p>Interactive browser-based game with touch-and-hold mechanics, animated SVG graphics, and turn-based combat
+            logic using JavaScript and HTML5 Canvas.</p>
+          <a href="https://github.com/Allan-Saud/Touch-and-Hold-battle-Game" target="_blank">View Code</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <form id="contact-form" class="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+      <p class="contact-info">Email: <a href="mailto:allansaud62@gmail.com">allansaud62@gmail.com</a></p>
+      <p class="contact-info">LinkedIn: <a href="https://www.linkedin.com/in/allan-saud-146a14321"
+          target="_blank">linkedin.com/in/allansaud</a></p>
+      <p class="contact-info">GitHub: <a href="https://github.com/Allan-Saud" target="_blank">github.com/allan</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Allan Saud. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
